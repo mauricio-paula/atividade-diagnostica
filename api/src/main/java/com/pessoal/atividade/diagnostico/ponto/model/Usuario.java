@@ -24,10 +24,12 @@ public class Usuario {
     @Column(nullable = false)
     private String dataCadastro;
 
+    public Usuario() {}
+
     public Usuario(String nome, String cpf, String email) {
-        this.nome = nome;
-        this.cpf = cpf;
-        this.email = email;
-        this.dataCadastro = "";
+        this.setNome(nome);
+        this.setCpf(cpf);
+        this.setEmail(email);
+        this.setDataCadastro("");
     }
 }

@@ -1,4 +1,4 @@
-package com.pessoal.atividade.diagnostico.ponto.api;
+package com.pessoal.atividade.diagnostico.ponto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
