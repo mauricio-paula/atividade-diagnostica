@@ -1,7 +1,7 @@
-package com.pessoal.atividade.diagnostico.ponto.controller;
+package com.pessoal.atividade.diagnostico.ponto.exception;
 
 public class UsuarioNotFoundException extends RuntimeException {
-    UsuarioNotFoundException(Long id) {
+    public UsuarioNotFoundException(Long id) {
         super("Nao foi possivel localizar o usuario " + id);
     }
 }

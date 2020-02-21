@@ -1,4 +1,4 @@
-package com.pessoal.atividade.diagnostico.ponto.api;
+package com.pessoal.atividade.diagnostico.ponto;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
